@@ -2,7 +2,7 @@
   "name": "react-icons-wrapper",
   "version": "1.0.5",
   "description": "A lightweight wrapper for the react-icons library.",
-  "author": "",
+  "author": "boeynaems",
   "license": "MIT",
   "repository": "/react-icons-wrapper",
   "main": "dist/index.js",
