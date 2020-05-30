@@ -1,6 +1,15 @@
 import React from 'react'
-import styles from './styles.module.css'
+import { IconContext } from 'react-icons'
+import { getIcon } from './helpers'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+const Icon = ({ name, color, size, className, style }) => {
+  const Icon = name ? getIcon(name) : null
+
+  return (
+    <IconContext.Provider value={{ color, size, className, style }}>
+      {name && Icon && <Icon />}
+    </IconContext.Provider>
+  )
 }
+
+export default Icon

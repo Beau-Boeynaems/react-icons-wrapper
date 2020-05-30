@@ -1,10 +1,8 @@
 import React from 'react'
-
-import { ExampleComponent } from 'react-icons-wrapper'
-import 'react-icons-wrapper/dist/index.css'
+import Icon from 'react-icons-wrapper'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Icon name={'FaBeer'} size={'2em'} color={'blue'} />
 }
 
 export default App
