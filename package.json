@@ -1,7 +1,6 @@
 {
   "name": "react-icons-wrapper",
-  "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Made with create-react-library",
   "author": "",
   "license": "MIT",
@@ -51,5 +50,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "react-icons": "^3.10.0"
+  }
 }
