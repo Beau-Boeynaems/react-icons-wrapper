@@ -1,5 +1,6 @@
 {
   "name": "react-icons-wrapper",
+  "private": true,
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "",
@@ -24,7 +25,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.3.0"
+    "react": "^16.3.0",
+    "react-icons": "^3.10.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -49,8 +51,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "react-icons": "^3.10.0"
-  }
+  ]
 }
